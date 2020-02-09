@@ -1,0 +1,12 @@
+{
+    "name": "thecodeholic/bulk-image-resize",
+    "authors": [
+        {
+            "name": "Zura Sekhniashvili",
+            "email": "zurasekhniashvili@gmail.com"
+        }
+    ],
+    "require": {
+        "imagine/imagine": "^1.2"
+    }
+}
