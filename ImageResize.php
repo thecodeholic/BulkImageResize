@@ -8,21 +8,21 @@ class ImageResize
     /**
      * Extensions to check each file agains before trying to resize
      */
-    private $extensions = ['jpg', 'png', 'jpeg'];
+    private $extensions = ['jpg', 'png', 'jpeg', 'gif'];
 
     /**
      * The image width which will be used to create thumbnails
      */
     private $imageWidth = 200; 
 
-    public function __construct($extensions = null, $imageWidth = null)
+    public function __construct($imageWidth = null, $extensions = null)
     {
         $this->imagine = new \Imagine\Gd\Imagine();
-        if ($extensions !== null) {
-            $this->extensions = $extensions;
-        }
         if ($imageWidth !== null){
             $this->imageWidth = $imageWidth;
+        }
+        if ($extensions !== null) {
+            $this->extensions = $extensions;
         }
     }
 
