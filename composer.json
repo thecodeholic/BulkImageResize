@@ -11,7 +11,7 @@
     },
     "autoload": {
         "psr-4": {
-            "tc\\bulkimageresize\\": ".//"
+            "tc\\bulkimageresize\\": ""
         }
     }
 }
