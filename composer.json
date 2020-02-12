@@ -8,5 +8,10 @@
     ],
     "require": {
         "imagine/imagine": "^1.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "tc\\bulkimageresize\\": ".//"
+        }
     }
 }
